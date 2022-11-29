@@ -30,6 +30,16 @@
   max-width: 70%;
 }
 
+.cardInfo {
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

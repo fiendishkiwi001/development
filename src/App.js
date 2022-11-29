@@ -288,6 +288,9 @@ function App() {
                         special={item.special}
                         price={item.price}
                       />
+                      <Button auto color="gradient" >
+                        Add to cart
+                      </Button>
                     </Grid>
                   )
                 }
