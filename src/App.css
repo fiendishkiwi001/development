@@ -2,6 +2,34 @@
   text-align: center;
 }
 
+.pageContainer {
+  flex-direction: column;
+  display: flex;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+
+}
+
+.sidebar {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5%;
+  flex-direction: column;
+  max-width: 30%;
+}
+
+.items {
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
