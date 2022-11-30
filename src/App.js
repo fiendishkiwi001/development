@@ -364,7 +364,7 @@ function App() {
               return (
                 <div className='cartItem'>
                   <Text size="$xs">
-                    {item}
+                    ${menuMap.get(item)} &nbsp; {item}
                   </Text>
                   <Button auto className='cartButton' onPress={() => removeCartHandler(i)}>
                     remove
