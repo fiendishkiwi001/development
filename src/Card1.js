@@ -24,7 +24,7 @@ export const Card1 = ({ src, title, type, special, price }) => (
       <div className="cardInfo">
         <div className="row">
           <Text h4 color="black">
-            {price} &nbsp;
+            ${price} &nbsp;
           </Text>
           <Text size="$xs" color="black">
             {special.map(function(value, i) {
